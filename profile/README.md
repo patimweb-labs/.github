@@ -12,6 +12,12 @@ Projekte, Werkzeuge und Experimente — dort, wo es nicht um Agenten geht.
 | [`wach`](https://github.com/patimweb-labs/wach) | macOS-Menüleisten-App, die den Rechner wachhält | Swift |
 | [`crtstyleguide`](https://github.com/patimweb-labs/crtstyleguide) | Retro-CRT-Web-Component-Bibliothek | TypeScript, Lit |
 
+## Sprache und Assistenz
+
+| Projekt | Was es tut | Stack |
+|---|---|---|
+| `home-assistant-mistral-voice` *(privat)* | Sprachassistent auf Home Assistant (Umbrel): Mistral Voxtral für STT und TTS mit eigener Stimme, OpenAI-kompatibler Agent, Firmware-Patch für die Lautstärkekurve des Voice PE | Python, ESPHome |
+
 ## Werkzeuge
 
 | Projekt | Was es tut | Stack |
@@ -24,3 +30,7 @@ Projekte, Werkzeuge und Experimente — dort, wo es nicht um Agenten geht.
 
 Auf npm: `@patimweb/crtstyleguide`, `@patimweb/xsc-patcher`, `@patimweb/dos2-savegame-tools`,
 `@patimweb/pmaptilescutter`.
+
+---
+
+Stand: 2026-10-30 · 11 Repositories
