@@ -6,17 +6,25 @@ Projekte, Werkzeuge und Experimente — dort, wo es nicht um Agenten geht.
 
 | Projekt | Was es tut | Stack |
 |---|---|---|
-| [`easymeet`](https://github.com/patimweb-labs/easymeet) | P2P-Videokonferenz im Browser: Chat, Screensharing, virtuelle Hintergründe | TypeScript, WebRTC |
+| [`hexwerk`](https://github.com/patimweb-labs/hexwerk) | Addon-Manager für World of Warcraft unter Linux: findet Steam/Proton, Faugus, Heroic, Lutris, Bottles und PortProton, verwaltet die Addons aller Client-Versionen | Rust, Tauri 2, Vue 3 |
 | [`crosspoint`](https://github.com/patimweb-labs/crosspoint) | 8×8-Mixer für PipeWire/JACK, ohne Kernelmodul | Rust, Web-UI |
-| [`wledambilight`](https://github.com/patimweb-labs/wledambilight) | Schlankes Ambilight für WLED und mehr | Rust |
-| [`wach`](https://github.com/patimweb-labs/wach) | macOS-Menüleisten-App, die den Rechner wachhält | Swift |
-| [`crtstyleguide`](https://github.com/patimweb-labs/crtstyleguide) | Retro-CRT-Web-Component-Bibliothek | TypeScript, Lit |
+| [`wledambilight`](https://github.com/patimweb-labs/wledambilight) | Bildschirmfarben in Echtzeit auf WLED-Streifen, PC-Peripherie (OpenRGB, Razer Chroma), Govee und Nanoleaf | Rust, Tauri 2, Vue 3 |
+| [`easymeet`](https://github.com/patimweb-labs/easymeet) | Videokonferenz im Browser über einen eigenen mediasoup-SFU: Chat, Dateien, Screensharing, virtuelle Hintergründe | TypeScript, mediasoup |
+| [`wach`](https://github.com/patimweb-labs/wach) | macOS-Menüleisten-App, die den Rechner wachhält und den Abwesend-Status in Chats verhindert | Go, CoreGraphics |
 
 ## Sprache und Assistenz
 
 | Projekt | Was es tut | Stack |
 |---|---|---|
+| `sprechwerk` *(privat)* | Sprach- und Texträume für Vereine, selbst gehostet: ein Container, ein UDP-Port, QUIC mit TLS 1.3, Anmeldung über einen Ed25519-Schlüssel statt Konten | Rust |
 | `home-assistant-mistral-voice` *(privat)* | Sprachassistent auf Home Assistant (Umbrel): Mistral Voxtral für STT und TTS mit eigener Stimme, OpenAI-kompatibler Agent, Firmware-Patch für die Lautstärkekurve des Voice PE | Python, ESPHome |
+
+## Bibliotheken
+
+| Projekt | Was es tut | Stack |
+|---|---|---|
+| [`weppelmann-ui`](https://github.com/Smotherer007/weppelmann-ui) | Gemeinsame Bausteine der Apps: Design-Tokens, Vue-3-Komponenten, Living Styleguide mit Kontrastprüfung | Vue 3, TypeScript |
+| [`crtstyleguide`](https://github.com/patimweb-labs/crtstyleguide) | Retro-CRT-Web-Component-Bibliothek | TypeScript, Lit |
 
 ## Werkzeuge
 
@@ -28,9 +36,8 @@ Projekte, Werkzeuge und Experimente — dort, wo es nicht um Agenten geht.
 | [`xsc-patcher`](https://github.com/patimweb-labs/xsc-patcher) | XVI32-`.xsc`-Patchskripte auf Binärdateien anwenden | TypeScript |
 | [`xsc-patcher-webui`](https://github.com/patimweb-labs/xsc-patcher-webui) | Web-Oberfläche dafür | TypeScript |
 
-Auf npm: `@patimweb/crtstyleguide`, `@patimweb/xsc-patcher`, `@patimweb/dos2-savegame-tools`,
-`@patimweb/pmaptilescutter`.
+Auf npm: `@patimweb/crtstyleguide`, `@patimweb/xsc-patcher`, `@patimweb/dos2-savegame-tools`.
 
 ---
 
-Stand: 2026-10-30 · 11 Repositories
+Stand: 2026-11-16 · 13 Repositories in der Organisation, dazu `weppelmann-ui` im persönlichen Konto
