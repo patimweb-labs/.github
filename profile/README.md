@@ -6,9 +6,9 @@ Projekte, Werkzeuge und Experimente — dort, wo es nicht um Agenten geht.
 
 | Projekt | Was es tut | Stack |
 |---|---|---|
-| [`hexwerk`](https://github.com/patimweb-labs/hexwerk) | Addon-Manager für World of Warcraft unter Linux: findet Steam/Proton, Faugus, Heroic, Lutris, Bottles und PortProton, verwaltet die Addons aller Client-Versionen | Rust, Tauri 2, Vue 3 |
-| [`crosspoint`](https://github.com/patimweb-labs/crosspoint) | 8×8-Mixer für PipeWire/JACK, ohne Kernelmodul | Rust, Web-UI |
-| [`wledambilight`](https://github.com/patimweb-labs/wledambilight) | Bildschirmfarben in Echtzeit auf WLED-Streifen, PC-Peripherie (OpenRGB, Razer Chroma), Govee und Nanoleaf | Rust, Tauri 2, Vue 3 |
+| [`hexwerk`](https://github.com/patimweb-labs/hexwerk) | Addon-Manager für World of Warcraft unter Linux, Windows und macOS: findet Steam/Proton, Faugus, Heroic, Lutris, Bottles und PortProton, verwaltet die Addons aller Client-Versionen | Rust, Tauri 2, Vue 3 |
+| [`crosspoint`](https://github.com/patimweb-labs/crosspoint) | 8×8-Mixer für PipeWire/JACK ohne Kernelmodul: Filter nur an den virtuellen Bussen B1–B3 (Noise Gate, Echounterdrückung per AEC3, Rauschunterdrückung, Kompressor/Limiter, AGC, Ducking, Push-to-Talk), Web-Fernbedienung, Pakete als Flatpak und AppImage | Rust, egui |
+| [`wledambilight`](https://github.com/patimweb-labs/wledambilight) | Bildschirmfarben in Echtzeit auf WLED-Streifen, PC-Peripherie (OpenRGB, Razer Chroma), Govee und Nanoleaf | Rust, egui |
 | [`easymeet`](https://github.com/patimweb-labs/easymeet) | Videokonferenz im Browser über einen eigenen mediasoup-SFU: Chat, Dateien, Screensharing, virtuelle Hintergründe | TypeScript, mediasoup |
 | [`wach`](https://github.com/patimweb-labs/wach) | macOS-Menüleisten-App, die den Rechner wachhält und den Abwesend-Status in Chats verhindert | Go, CoreGraphics |
 
@@ -16,7 +16,7 @@ Projekte, Werkzeuge und Experimente — dort, wo es nicht um Agenten geht.
 
 | Projekt | Was es tut | Stack |
 |---|---|---|
-| `sprechwerk` *(privat)* | Sprach- und Texträume für Vereine, selbst gehostet: ein Container, ein UDP-Port, QUIC mit TLS 1.3, Anmeldung über einen Ed25519-Schlüssel statt Konten | Rust |
+| [`sprechwerk`](https://github.com/patimweb-labs/sprechwerk) | Sprach- und Texträume für Vereine, selbst gehostet: ein Container, ein UDP-Port, QUIC mit TLS 1.3, Ende-zu-Ende verschlüsselt, Anmeldung über einen Ed25519-Schlüssel statt Konten | Rust, egui |
 | `home-assistant-mistral-voice` *(privat)* | Sprachassistent auf Home Assistant (Umbrel): Mistral Voxtral für STT und TTS mit eigener Stimme, OpenAI-kompatibler Agent, Firmware-Patch für die Lautstärkekurve des Voice PE | Python, ESPHome |
 
 ## Bibliotheken
@@ -40,4 +40,4 @@ Auf npm: `@patimweb/crtstyleguide`, `@patimweb/xsc-patcher`, `@patimweb/dos2-sav
 
 ---
 
-Stand: 2026-11-16 · 13 Repositories in der Organisation, dazu `weppelmann-ui` im persönlichen Konto
+Stand: 2026-11-22 · 13 Repositories in der Organisation (ohne `.github`, private mitgezählt), dazu `weppelmann-ui` im persönlichen Konto
